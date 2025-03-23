@@ -6,6 +6,7 @@
     <title></title>
 </head>
 <body>
+    <!-- Ordered List with Roman Numerals -->
     <h2>Ordered List</h2>
     <ol type="i">
         <li>Mathematics</li>
@@ -13,8 +14,12 @@
         <li>Swahili</li>
         <li>Geography</li>
     </ol>
+
+    <!-- External Image from Pexels -->
     <h2>Image</h2>
     <img src="https://images.pexels.com/photos/1007023/pexels-photo-1007023.jpeg" alt="An image depicting school material" width="600" height="500">
+
+    <!-- Table of 5 Contacts -->
     <h2>Table</h2>
     <table border="1" cellpadding="8" cellspacing="0">
         <tr>
@@ -55,55 +60,63 @@
         </tr>
     </table>
 
-    <!--Audio Implementation-->
+    <!-- Audio Implementation -->
     <h2>Audio Sample</h2>
     <audio controls>
         <source src="./audio/Attack18.wav" type="audio/wav">
-
     </audio> 
-    <!--Video Implementation-->
+
+    <!-- Video Implementation -->
     <h2>Video Sample</h2>
     <video width="400" height="200" controls>
         <source src="./video/BOSTON_BOSTON_AERIAL_00085_preview.mp4" type="video/mp4">
     </video>
 
+    <!-- Registration Form -->
     <h2>Registration Form</h2>
-
     <form method="">
+        <!-- Name Field -->
         <label for="name">Name</label>
         <input type="text" id="student_name" name="student_name" placeholder="Enter your name..." required>
         <br><br>
+
+        <!-- Email Field -->
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your email..." required>
         <br><br>
+
+        <!-- Password Field -->
         <label for="password">Password</label>
         <input type="password" id="password" name="password" placeholder="Enter your password..." required>
         <br><br>
+
+        <!-- Date of Birth Field -->
         <label for="dob">Date Of Birth</label>
         <input type="date" id="dob" name="dob">
         <br><br>
 
-        <!--Dropdown Menu-->
+        <!-- Dropdown Menu -->
         <label for="food">Favorite Food: </label>
         <select id="food" name="food" required>
-            <option value="">Select your country</option>
+            <option value="">Select your favorite food</option>
             <option value="Pizza">Pizza</option>
             <option value="Sushi">Sushi</option>
             <option value="Burger">Burger</option>
             <option value="Pasta">Pasta</option>
             <option value="salad">Salad</option>
         </select>
+        <br><br>
 
-        <!--Radio Buttons-->
+        <!-- Radio Buttons -->
         <label>Gender: </label>
         <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female" required>
-        <label for="others">Others</label><br>
+        <label for="female">Female</label><br>
         <input type="radio" id="others" name="gender" value="others" required>
-        <br>
+        <label for="others">Others</label><br>
 
-        <!--Checkbox-->
+        <!-- Checkboxes -->
         <label>Interests:</label><br>
         <input type="checkbox" id="coding" name="interests" value="coding">
         <label for="coding">Coding</label><br>
@@ -112,11 +125,9 @@
         <input type="checkbox" id="sports" name="interests" value="sports">
         <label for="sports">Sports</label>
         <br><br>
-        <!--Submit Button -->
+
+        <!-- Submit Button -->
         <button type="submit">Register</button>
-
     </form>
-
-    
 </body>
 </html>
