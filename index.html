@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h2>Ordered List</h2>
+    <ol type="i">
+        <li>Mathematics</li>
+        <li>English</li>
+        <li>Swahili</li>
+        <li>Geography</li>
+    </ol>
+    <h2>Image</h2>
+    <img src="https://images.pexels.com/photos/1007023/pexels-photo-1007023.jpeg" alt="An image depicting school material" width="600" height="500">
+    <h2>Table</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>123 Maple Street, Springfield, IL 62704</td>
+            <td>0712345678</td>
+            <td>emilyjohnson@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lucas Anderson</td>
+            <td>456 Oak Avenue, Austin, TX 73301</td>
+            <td>555-5678</td>
+            <td>lucas.anderson@example.com</td>
+        </tr>
+        <tr>
+            <td>Isabella Wright</td>
+            <td>789 Pine Road, Denver, CO 80203</td>
+            <td>555-8765</td>
+            <td>isabella.wright@example.com</td>
+        </tr>
+        <tr>
+            <td>Daniel Harris</td>
+            <td>101 Birch Lane, Seattle, WA 98101</td>
+            <td>555-4321</td>
+            <td>daniel.harris@example.com</td>
+        </tr>
+        <tr>
+            <td>Olivia Brown</td>
+            <td>202 Cedar Drive, Miami, FL 33101</td>
+            <td>555-6789</td>
+            <td>olivia.brown@example.com</td>
+        </tr>
+    </table>
+
+    <!--Audio Implementation-->
+    <h2>Audio Sample</h2>
+    <audio controls>
+        <source src="./audio/Attack18.wav" type="audio/wav">
+
+    </audio> 
+    <!--Video Implementation-->
+    <h2>Video Sample</h2>
+    <video width="400" height="200" controls>
+        <source src="./video/BOSTON_BOSTON_AERIAL_00085_preview.mp4" type="video/mp4">
+    </video>
+
+    <h2>Registration Form</h2>
+
+    <form method="">
+        <label for="name">Name</label>
+        <input type="text" id="student_name" name="student_name" placeholder="Enter your name..." required>
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password..." required>
+        <br><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!--Dropdown Menu-->
+        <label for="food">Favorite Food: </label>
+        <select id="food" name="food" required>
+            <option value="">Select your country</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Sushi">Sushi</option>
+            <option value="Burger">Burger</option>
+            <option value="Pasta">Pasta</option>
+            <option value="salad">Salad</option>
+        </select>
+
+        <!--Radio Buttons-->
+        <label>Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="others">Others</label><br>
+        <input type="radio" id="others" name="gender" value="others" required>
+        <br>
+
+        <!--Checkbox-->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <br><br>
+        <!--Submit Button -->
+        <button type="submit">Register</button>
+
+    </form>
+
+    
+</body>
+</html>
